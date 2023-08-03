@@ -6,25 +6,107 @@
     <title>404 not found</title>
     <style>
 .first{
-padding: 80px;
-font-size: 40px;
+padding: 60px;
+font-size: 20px;
 }
 .img{
 padding-top: 50px;
-
+margin-right: 80px;
 padding-left: 100px;
 width: 600px;
 }
+.text{
+font-family: 'Courier New', Courier, monospace;
+font-size: 100px;
+
+}
+.for{
+font-size: 80px;
+
+color: burlywood;
+
+}
+.btn{
+    font-size: 60px;
+background-color: brown;
+
+}
+.main{
+display: flex;
+justify-content: space-between;
+
+}
+.bed{
+    justify-content: end;
+    gap: 20px;
+text-align: end;
+margin-right: 180px;
+}
+@media screen and(max-witdh:576px) adn (min-witdh:992px)      {
+
+    .first{
+padding: 60px;
+font-size: 20px;
+}
+.img{
+padding-top: 50px;
+margin-right: 80px;
+padding-left: 100px;
+width: 600px;
+}
+.text{
+font-family: 'Courier New', Courier, monospace;
+font-size: 100px;
+
+}
+.for{
+font-size: 80px;
+
+color: burlywood;
+
+}
+.btn{
+    font-size: 60px;
+background-color: brown;
+
+}
+.main{
+display: flex;
+justify-content: space-between;
+
+}
+.bed{
+    justify-content: end;
+    gap: 20px;
+text-align: end;
+margin-right: 180px;
+}
+
+
+
+
+    }
+    
+}
+
+
+
 
 
     </style>
 </head>
 <body>
-        <header>
-            <h3 class="first">404 NOT FOUND</h3>
+
+    <h3 class="first">404 NOT FOUND</h3>
+
+        <header class="main">
+          
             <img  class="img"   src="image.png" alt="">
-
-
+            <div class="bed">
+            <h1 class="text">I HAVE BAD NEWS FOR YOU</h1>
+            <h3 class="for"> The page you are looking for might be removed or is temporarily unavailable</h3>
+            <button class="btn">Back To Homepage</button>
+                </div>
 
         </header>
 
